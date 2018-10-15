@@ -16,3 +16,10 @@ function frameIt(){
     this.className = "tasty";
   });
 }
+function pressIt(){
+  $('input').on('keydown',function(key){
+    if (key.key === 'g'){
+      alert('You pressed the g key!');
+    }
+  });
+}
