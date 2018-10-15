@@ -2,7 +2,8 @@
 
 $(document).ready(function(){
 
-// call functions here
+  getIt();
+  frameIt();
 
 });
 function getIt(){
@@ -15,4 +16,3 @@ function frameIt(){
     this.class = "tasty";
   });
 }
-
